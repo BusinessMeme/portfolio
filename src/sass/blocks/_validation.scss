@@ -1,0 +1,23 @@
+/*styles for invalid fields*/
+.input_invalid {
+    border-color: $main-color;
+}
+
+input:focus:invalid {
+    outline: none;
+}
+
+/*styles for custom error messages*/
+.error {
+    display: block;
+    width: 100%;
+    color: #000;
+    background-color: $main-color;
+    border-radius: 0 0 10px 10px;
+    box-sizing: border-box;
+    font-size: 12px;
+    text-align: center;
+}
+.policy_error {
+    border: 2px solid $main-color;
+}
